@@ -35,6 +35,7 @@ label[for="azul"]::after{
 .cores label img{
     display: block;
     max-width: 100%;
+    border: 2px solid #CCC;
 }
 .cores input:checked + label::after{
     border: 6px solid rgba(0,0,0,0.3);
@@ -115,4 +116,9 @@ tr:nth-child(2n){
 }
 td:first-child{
     font-style: italic;
+}
+.produto-back{
+    background-color: #F2F2F2;
+    margin-top: 1em;
+    border-top:2 px solid #CCC;
 }
