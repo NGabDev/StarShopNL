@@ -122,3 +122,6 @@ td:first-child{
     margin-top: 1em;
     border-top:2 px solid #CCC;
 }
+.form-control:invalid {
+    border: ipx solid #CC0000;
+}
